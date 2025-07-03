@@ -85,4 +85,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'cyclesync-app.firebasestorage.app',
     measurementId: 'G-X11MH79GPC',
   );
+
 }
