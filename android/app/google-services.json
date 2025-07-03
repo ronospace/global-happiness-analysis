@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "730237632589",
+    "project_id": "cyclesync-app",
+    "storage_bucket": "cyclesync-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730237632589:android:65eb7ca173246c8ffb9c04",
+        "android_client_info": {
+          "package_name": "com.cyclesync.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYq1-JZXaHTUaSwWSjioqnSqsNTZX5UDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730237632589:android:d7d214c876da6a51fb9c04",
+        "android_client_info": {
+          "package_name": "com.example.cyclesync"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYq1-JZXaHTUaSwWSjioqnSqsNTZX5UDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730237632589:android:f71d700778e2a8b6fb9c04",
+        "android_client_info": {
+          "package_name": "com.example.ronos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYq1-JZXaHTUaSwWSjioqnSqsNTZX5UDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
