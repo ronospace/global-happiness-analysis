@@ -3,7 +3,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:go_router/go_router.dart';
 import 'firebase_options.dart';
 import 'screens/splash_screen.dart';
-import 'screens/auth_screen.dart'; // 👈 Add this line
+import 'screens/login_screen.dart';
+import 'screens/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,9 +21,10 @@ class MyApp extends StatelessWidget {
       routes: [
         GoRoute(path: '/', builder: (context, state) => const SplashScreen()),
         GoRoute(
-          path: '/auth',
-          builder: (context, state) => const AuthScreen(), // 👈 Added
+          path: '/login',
+          builder: (context, state) => const LoginScreen(),
         ),
+        GoRoute(path: '/home', builder: (context, state) => const HomeScreen()),
       ],
     );
 
