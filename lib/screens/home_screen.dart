@@ -6,10 +6,11 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
+      appBar: AppBar(title: const Text('Home')),
+      body: const Center(
         child: Text(
-          'Home Screen',
-          style: Theme.of(context).textTheme.headlineMedium,
+          'Welcome to CycleSync Home!',
+          style: TextStyle(fontSize: 20),
         ),
       ),
     );

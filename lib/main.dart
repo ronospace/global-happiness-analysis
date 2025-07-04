@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final _router = GoRouter(
+    final router = GoRouter(
       routes: [
         GoRoute(path: '/', builder: (context, state) => const SplashScreen()),
         GoRoute(
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp.router(
       title: 'CycleSync',
       theme: ThemeData(primarySwatch: Colors.pink),
-      routerConfig: _router,
+      routerConfig: router,
     );
   }
 }
