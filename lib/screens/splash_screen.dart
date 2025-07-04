@@ -13,16 +13,18 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    _checkAuthStatus();
+    _checkAuth();
   }
 
-  Future<void> _checkAuthStatus() async {
-    await Future.delayed(const Duration(seconds: 2)); // Simulate loading
+  Future<void> _checkAuth() async {
+    await Future.delayed(const Duration(seconds: 2)); // simulate loading
     final user = FirebaseAuth.instance.currentUser;
-    if (user == null) {
-      context.go('/login');
-    } else {
-      context.go('/home');
+    if (mounted) {
+      if (user != null) {
+        context.go('/home');
+      } else {
+        context.go('/login');
+      }
     }
   }
 
