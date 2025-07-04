@@ -5,7 +5,7 @@ import 'firebase_options.dart';
 import 'screens/splash_screen.dart';
 import 'screens/login_screen.dart';
 import 'screens/home_screen.dart';
-import 'screens/signup_screen.dart'; // 👈 Added SignUp screen
+import 'screens/signup_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         GoRoute(
           path: '/signup',
           builder: (context, state) => const SignUpScreen(),
-        ), // 👈 New route
+        ),
         GoRoute(path: '/home', builder: (context, state) => const HomeScreen()),
       ],
     );

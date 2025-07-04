@@ -10,50 +10,51 @@ class SignUpScreen extends StatefulWidget {
 }
 
 class _SignUpScreenState extends State<SignUpScreen> {
-  final _emailController = TextEditingController();
-  final _passwordController = TextEditingController();
-  String _error = '';
+  final TextEditingController emailController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
 
-  Future<void> _register() async {
+  String? error;
+
+  Future<void> _signUp() async {
     try {
       await FirebaseAuth.instance.createUserWithEmailAndPassword(
-        email: _emailController.text.trim(),
-        password: _passwordController.text,
+        email: emailController.text.trim(),
+        password: passwordController.text,
       );
-      context.go('/home'); // 👈 Go to home on success
-    } on FirebaseAuthException catch (e) {
-      setState(() => _error = e.message ?? 'Registration failed');
+      context.go('/home');
+    } catch (e) {
+      setState(() {
+        error = e.toString();
+      });
     }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Sign Up')),
+      backgroundColor: Colors.pink.shade50,
       body: Padding(
-        padding: const EdgeInsets.all(24),
+        padding: const EdgeInsets.all(24.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const Text('Sign Up to CycleSync', style: TextStyle(fontSize: 22)),
+            const SizedBox(height: 24),
             TextField(
-              controller: _emailController,
+              controller: emailController,
               decoration: const InputDecoration(labelText: 'Email'),
             ),
-            const SizedBox(height: 12),
             TextField(
-              controller: _passwordController,
+              controller: passwordController,
               obscureText: true,
               decoration: const InputDecoration(labelText: 'Password'),
             ),
-            const SizedBox(height: 12),
-            ElevatedButton(onPressed: _register, child: const Text('Register')),
-            const SizedBox(height: 12),
-            if (_error.isNotEmpty)
-              Text(_error, style: const TextStyle(color: Colors.red)),
-            TextButton(
-              onPressed: () => context.go('/login'),
-              child: const Text('Already have an account? Login'),
-            ),
+            if (error != null) ...[
+              const SizedBox(height: 12),
+              Text(error!, style: const TextStyle(color: Colors.red)),
+            ],
+            const SizedBox(height: 24),
+            ElevatedButton(onPressed: _signUp, child: const Text('Sign Up')),
           ],
         ),
       ),
