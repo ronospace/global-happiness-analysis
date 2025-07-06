@@ -1,16 +1,19 @@
-# cyclesync
+# 🌍 Global Happiness Analysis
 
-A new Flutter project.
+This project analyzes and visualizes the **Global Happiness Index (2015–2019)** using **Python, Pandas, Seaborn, Plotly, and Streamlit**.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+✅ Clean EDA in Jupyter  
+✅ Animated choropleth maps  
+✅ Interactive Streamlit dashboard  
+✅ Feature importance and predictive modeling  
+✅ Year-over-year happiness trends  
+✅ Ready for presentations and portfolio
 
-A few resources to get you started if this is your first Flutter project:
+## How to Run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1️⃣ Clone the repository:
+```bash
+git clone https://github.com/ronospace/global-happiness-analysis.git
+cd global-happiness-analysis
