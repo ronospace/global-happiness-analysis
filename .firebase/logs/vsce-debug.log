@@ -1,0 +1,132 @@
+[debug] [2025-07-03T22:56:25.938Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-07-03T22:56:27.820Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-07-03T22:56:27.821Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-03T22:56:27.821Z] > authorizing via signed-in user (ronos.icloud@gmail.com)
+[debug] [2025-07-03T22:56:27.823Z] Checked if tokens are valid: true, expires at: 1751586916520
+[debug] [2025-07-03T22:56:27.823Z] Checked if tokens are valid: true, expires at: 1751586916520
+[debug] [2025-07-03T22:56:27.823Z] [Firebase Plugin] User found:  ronos.icloud@gmail.com
+[info] [Firebase Plugin] (Core:Project) New user detected, fetching projects
+[debug] [2025-07-03T22:56:27.823Z] Checked if tokens are valid: true, expires at: 1751586916520
+[debug] [2025-07-03T22:56:27.824Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-07-03T22:56:27.829Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[debug] [2025-07-03T22:56:28.057Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-07-03T22:56:28.457Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-07-03T22:56:28.457Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2025-07-04T00:15:32.367Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-07-04T00:15:35.799Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-07-04T00:15:35.801Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-04T00:15:35.802Z] > authorizing via signed-in user (ronos.icloud@gmail.com)
+[debug] [2025-07-04T00:15:35.806Z] Checked if tokens are valid: false, expires at: 1751586916520
+[debug] [2025-07-04T00:15:35.806Z] Checked if tokens are valid: false, expires at: 1751586916520
+[debug] [2025-07-04T00:15:35.807Z] > refreshing access token with scopes: []
+[debug] [2025-07-04T00:15:35.808Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-07-04T00:15:35.809Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-07-04T00:15:35.818Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[debug] [2025-07-04T00:15:36.259Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-07-04T00:15:36.513Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-07-04T00:15:36.513Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-07-04T00:15:36.531Z] [Firebase Plugin] User found:  ronos.icloud@gmail.com
+[info] [Firebase Plugin] (Core:Project) New user detected, fetching projects
+[debug] [2025-07-04T00:15:36.531Z] Checked if tokens are valid: true, expires at: 1751591735514
+[debug] [2025-07-04T00:15:36.532Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-07-04T00:15:37.232Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-07-04T00:15:37.232Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2025-07-04T15:42:03.725Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-07-04T15:42:05.278Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-07-04T15:42:05.278Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-04T15:42:05.278Z] > authorizing via signed-in user (ronos.icloud@gmail.com)
+[debug] [2025-07-04T15:42:05.279Z] Checked if tokens are valid: false, expires at: 1751591735514
+[debug] [2025-07-04T15:42:05.279Z] Checked if tokens are valid: false, expires at: 1751591735514
+[debug] [2025-07-04T15:42:05.279Z] > refreshing access token with scopes: []
+[debug] [2025-07-04T15:42:05.280Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-07-04T15:42:05.280Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-07-04T15:42:05.283Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[debug] [2025-07-04T15:42:05.497Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-07-04T15:42:05.499Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-07-04T15:42:05.499Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-07-04T15:42:05.509Z] [Firebase Plugin] User found:  ronos.icloud@gmail.com
+[info] [Firebase Plugin] (Core:Project) New user detected, fetching projects
+[debug] [2025-07-04T15:42:05.510Z] Checked if tokens are valid: true, expires at: 1751647324500
+[debug] [2025-07-04T15:42:05.510Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-07-04T15:42:06.070Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-07-04T15:42:06.070Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2025-07-04T15:42:29.920Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-07-04T15:42:30.849Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-07-04T15:42:30.850Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-04T15:42:30.850Z] > authorizing via signed-in user (ronos.icloud@gmail.com)
+[debug] [2025-07-04T15:42:30.851Z] Checked if tokens are valid: true, expires at: 1751647324500
+[debug] [2025-07-04T15:42:30.851Z] Checked if tokens are valid: true, expires at: 1751647324500
+[debug] [2025-07-04T15:42:30.851Z] [Firebase Plugin] User found:  ronos.icloud@gmail.com
+[info] [Firebase Plugin] (Core:Project) New user detected, fetching projects
+[debug] [2025-07-04T15:42:30.851Z] Checked if tokens are valid: true, expires at: 1751647324500
+[debug] [2025-07-04T15:42:30.852Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-07-04T15:42:30.854Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[debug] [2025-07-04T15:42:30.984Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-07-04T15:42:31.340Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-07-04T15:42:31.340Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2025-07-04T19:51:16.116Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-07-04T19:51:22.737Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-07-04T19:51:22.737Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-04T19:51:22.738Z] > authorizing via signed-in user (ronos.icloud@gmail.com)
+[debug] [2025-07-04T19:51:22.739Z] Checked if tokens are valid: false, expires at: 1751647324500
+[debug] [2025-07-04T19:51:22.739Z] Checked if tokens are valid: false, expires at: 1751647324500
+[debug] [2025-07-04T19:51:22.739Z] > refreshing access token with scopes: []
+[debug] [2025-07-04T19:51:22.740Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-07-04T19:51:22.740Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-07-04T19:51:22.743Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[debug] [2025-07-04T19:51:23.072Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-07-04T19:51:23.424Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-07-04T19:51:23.424Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-07-04T19:51:23.438Z] [Firebase Plugin] User found:  ronos.icloud@gmail.com
+[info] [Firebase Plugin] (Core:Project) New user detected, fetching projects
+[debug] [2025-07-04T19:51:23.438Z] Checked if tokens are valid: true, expires at: 1751662282424
+[debug] [2025-07-04T19:51:23.438Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-07-04T19:51:25.705Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-07-04T19:51:25.705Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2025-07-04T20:25:08.917Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-07-04T20:25:10.795Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-07-04T20:25:10.796Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-04T20:25:10.796Z] > authorizing via signed-in user (ronos.icloud@gmail.com)
+[debug] [2025-07-04T20:25:10.798Z] Checked if tokens are valid: true, expires at: 1751662282424
+[debug] [2025-07-04T20:25:10.798Z] Checked if tokens are valid: true, expires at: 1751662282424
+[debug] [2025-07-04T20:25:10.798Z] [Firebase Plugin] User found:  ronos.icloud@gmail.com
+[info] [Firebase Plugin] (Core:Project) New user detected, fetching projects
+[debug] [2025-07-04T20:25:10.799Z] Checked if tokens are valid: true, expires at: 1751662282424
+[debug] [2025-07-04T20:25:10.800Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-07-04T20:25:10.804Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[debug] [2025-07-04T20:25:11.013Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-07-04T20:25:11.490Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-07-04T20:25:11.490Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2025-07-05T13:22:16.864Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-07-05T13:22:19.800Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-07-05T13:22:19.801Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-05T13:22:19.801Z] > authorizing via signed-in user (ronos.icloud@gmail.com)
+[debug] [2025-07-05T13:22:19.803Z] Checked if tokens are valid: false, expires at: 1751673378394
+[debug] [2025-07-05T13:22:19.803Z] Checked if tokens are valid: false, expires at: 1751673378394
+[debug] [2025-07-05T13:22:19.803Z] > refreshing access token with scopes: []
+[debug] [2025-07-05T13:22:19.804Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-07-05T13:22:19.804Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-07-05T13:22:19.809Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[debug] [2025-07-05T13:22:19.967Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-07-05T13:22:19.967Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-07-05T13:22:19.987Z] [Firebase Plugin] User found:  ronos.icloud@gmail.com
+[info] [Firebase Plugin] (Core:Project) New user detected, fetching projects
+[debug] [2025-07-05T13:22:19.988Z] Checked if tokens are valid: true, expires at: 1751725338967
+[debug] [2025-07-05T13:22:19.989Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-07-05T13:22:20.251Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-07-05T13:22:20.855Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-07-05T13:22:20.856Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] [Firebase Plugin] Stopping Data Connect toolkit

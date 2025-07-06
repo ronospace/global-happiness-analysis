@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 altair==5.5.0
 attrs==25.3.0
 blinker==1.9.0
@@ -46,3 +47,12 @@ tornado==6.5.1
 typing_extensions==4.14.1
 tzdata==2025.2
 urllib3==2.5.0
+=======
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+streamlit
+scikit-learn
+>>>>>>> 698c9dd2ed2a323133c9fc705b4a9e3228332060
