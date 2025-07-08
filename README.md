@@ -123,5 +123,3 @@ Pull requests are welcome! If you have improvements or feature ideas, feel free 
 MIT License © 2025 [Jeff Rono](https://github.com/ronospace)
 
 ---
-
-> **This project is ready to add to your LinkedIn and GitHub portfolio for demonstrating your EDA and Python analysis skills.**
