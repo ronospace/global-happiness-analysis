@@ -5,6 +5,16 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-Lab-orange?logo=jupyter)](https://jupyter.org/)
 [![Status](https://img.shields.io/badge/Status-Complete-brightgreen)](https://github.com/ronospace/global-happiness-analysis)
 
+---
+
+## 🌐 Live Demo
+
+✅ **Try the interactive Streamlit dashboard here:**
+
+[▶️ View Global Happiness Dashboard (Live)](https://ronospace-global-happiness-an-global-happiness-dashboard-qcmfay.streamlit.app/)
+
+---
+
 Analysis of **World Happiness Reports (2015–2019)** using **Python, pandas, Seaborn, Plotly, and Streamlit** for **clean insights, interactive dashboards, and portfolio-ready visualizations**.
 
 ---
