@@ -23,3 +23,10 @@ env/
 
 # System files
 *.swp
+# Flutter build folders
+ios/
+macos/
+# Dart tool artifacts
+.dart_tool/
+# VSCode logs
+.firebase/logs/
